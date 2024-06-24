@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import time
-
+#Game breaking due to infinite loop after game over
 def draw_scene(circle_y, obstacle_x, score):
     game_over = False
     line = np.zeros((500, 500, 3), dtype=np.uint8)
